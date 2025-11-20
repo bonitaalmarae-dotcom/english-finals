@@ -168,14 +168,14 @@ class FlashcardApp:
         lesson_frame.pack(pady=25, padx=25, fill="both", expand=True)
 
         self.img_paths = [
-            r"C:\Users\Lhea\PycharmProjects\PythonProjectBONGAY\ah.png",
-            r"C:\Users\Lhea\PycharmProjects\PythonProjectBONGAY\first.png",
-            r"C:\Users\Lhea\PycharmProjects\PythonProjectBONGAY\examplee.png",
-            r"C:\Users\Lhea\PycharmProjects\PythonProjectBONGAY\one.png",
-            r"C:\Users\Lhea\PycharmProjects\PythonProjectBONGAY\two.png",
-            r"C:\Users\Lhea\PycharmProjects\PythonProjectBONGAY\learnn.png",
-            r"C:\Users\Lhea\PycharmProjects\PythonProjectBONGAY\second.png",
-            r"C:\Users\Lhea\PycharmProjects\PythonProjectBONGAY\ha.png"
+            r"C:\Users\Lhea\PycharmProjects\PythonProjectBONITA\ah.png",
+            r"C:\Users\Lhea\PycharmProjects\PythonProjectBONITA\first.png",
+            r"C:\Users\Lhea\PycharmProjects\PythonProjectBONITA\examplee.png",
+            r"C:\Users\Lhea\PycharmProjects\PythonProjectBONITA\one.png",
+            r"C:\Users\Lhea\PycharmProjects\PythonProjectBONITA\two.png",
+            r"C:\Users\Lhea\PycharmProjects\PythonProjectBONITA\learnn.png",
+            r"C:\Users\Lhea\PycharmProjects\PythonProjectBONITA\second.png",
+            r"C:\Users\Lhea\PycharmProjects\PythonProjectBONITA\ha.png"
         ]
         self.lesson_images = []
         for path in self.img_paths:
@@ -274,6 +274,7 @@ class FlashcardApp:
 root = tk.Tk()
 app = FlashcardApp(root)
 root.mainloop()
+
 
 
 
